@@ -18,6 +18,8 @@ public class MusicManager {
     public static final Music MENU_MUSIC = Gdx.audio.newMusic(Gdx.files.internal("rolling_hills.wav"));
     public static final Music GAME_MUSIC = Gdx.audio.newMusic(Gdx.files.internal("onwards.wav"));
     private static Music currentSong;
+    private static boolean muted = false;
+    private static final float MAX_VOLUME = 1f;
 
     /**
      * Stops any current song, and starts a new one
@@ -35,23 +37,28 @@ public class MusicManager {
         }
         // set the current song
         currentSong = song;
-        // the song should be forever looping
+        if (muted)
+            muteMusic();
+        else
+            unmuteMusic();
+         // the song should be forever looping
         currentSong.setLooping(true);
-        currentSong.setVolume(0.5f);
         currentSong.play();
     }
 
     /**
-     * Mutes the current song but keeps it playing
+     * Mutes the current song but keeps it streaming
      */
     public static void muteMusic() {
         currentSong.setVolume(0f);
+        muted = true;
     }
 
     /**
      * Unmutes the current song
      */
     public static void unmuteMusic() {
-        currentSong.setVolume(0.5f);
+        currentSong.setVolume(MAX_VOLUME);
+        muted = false;
     }
 }
