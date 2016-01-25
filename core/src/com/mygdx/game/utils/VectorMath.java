@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mygdx.game.model;
+package com.mygdx.game.utils;
 
 import com.badlogic.gdx.math.Vector2;
 

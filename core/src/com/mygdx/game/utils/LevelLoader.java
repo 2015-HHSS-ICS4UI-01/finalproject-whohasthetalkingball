@@ -2,11 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mygdx.game.model;
+package com.mygdx.game.utils;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Vector2;
 import com.mygdx.game.MyGdxGame;
+import com.mygdx.game.model.GameWorld;
+import com.mygdx.game.model.Polygon;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;

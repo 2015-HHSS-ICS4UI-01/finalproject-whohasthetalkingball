@@ -1,7 +1,7 @@
 package com.mygdx.game;
 
 import com.mygdx.game.input.InputProcessor;
-import com.mygdx.game.gamescreen.ScreenManager;
+import com.mygdx.game.screen.ScreenManager;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.audio.Music;

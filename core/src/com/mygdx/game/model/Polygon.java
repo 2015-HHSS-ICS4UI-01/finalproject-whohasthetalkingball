@@ -6,6 +6,7 @@
  */
 package com.mygdx.game.model;
 
+import com.mygdx.game.utils.VectorMath;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Vector2;
 

@@ -1,5 +1,5 @@
 
-package com.mygdx.game.gamescreen;
+package com.mygdx.game.screen;
 
 import com.badlogic.gdx.Screen;
 

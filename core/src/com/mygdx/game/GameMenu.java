@@ -4,6 +4,7 @@
  */
 package com.mygdx.game;
 
+import com.mygdx.game.utils.MusicManager;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputMultiplexer;
 import com.badlogic.gdx.graphics.Color;
@@ -27,8 +28,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.TextButton.TextButtonStyle;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.scenes.scene2d.utils.DragListener;
 import com.badlogic.gdx.utils.Align;
-import com.mygdx.game.gamescreen.MyScreen;
-import com.mygdx.game.gamescreen.ScreenManager;
+import com.mygdx.game.screen.MyScreen;
+import com.mygdx.game.screen.ScreenManager;
 import com.mygdx.game.input.GameInputs;
 import com.mygdx.game.model.GameWorld;
 

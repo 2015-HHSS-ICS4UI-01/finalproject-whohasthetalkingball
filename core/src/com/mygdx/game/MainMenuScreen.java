@@ -9,8 +9,8 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputMultiplexer;
 import com.badlogic.gdx.InputProcessor;
 import com.mygdx.game.input.GameInputs;
-import com.mygdx.game.gamescreen.ScreenManager;
-import com.mygdx.game.gamescreen.MyScreen;
+import com.mygdx.game.screen.ScreenManager;
+import com.mygdx.game.screen.MyScreen;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
@@ -19,7 +19,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.ui.TextField;
 import com.badlogic.gdx.utils.Align;
-import com.mygdx.game.model.LevelLoader;
+import com.mygdx.game.utils.LevelLoader;
 
 /**
  *

@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mygdx.game.gamescreen;
+package com.mygdx.game.screen;
 
 import com.badlogic.gdx.Gdx;
 import com.mygdx.game.GameMenu;
 import com.mygdx.game.GameScreen;
 import com.mygdx.game.MainMenuScreen;
-import com.mygdx.game.MusicManager;
+import com.mygdx.game.utils.MusicManager;
 import com.mygdx.game.MyGdxGame;
 import com.mygdx.game.input.GameInputs;
 import java.util.HashMap;
